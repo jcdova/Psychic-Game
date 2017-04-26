@@ -28,12 +28,12 @@
   var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
   // console.log(userGuess);
 
-  var html = function(){
+  /*var html = function(){
           document.getElementById("wins").innerHTML="Wins: " + wins;
           document.getElementById("losses").innerHTML ="Losses: "+ losses;
           document.getElementById("guesses").innerHTML  ="Guesses: " + guesses;
           document.getElementById("chosen").innerHTML = "Chosen: " + chosen;
-  }
+  }*/
   //this resets guesses to 9 and to an empty array
   var reset = function() {
         guesses = 9;
